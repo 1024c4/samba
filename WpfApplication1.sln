@@ -1,0 +1,93 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApplication1", "WpfApplication1\WpfApplication1.csproj", "{25007C44-A758-4567-81FB-7952ACF59C3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MuiTest", "MuiTest\MuiTest.csproj", "{ADF5E3EA-9D6C-4668-B120-3BB4A7E4DC3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServicesManager", "ServicesManager\ServicesManager.csproj", "{94A5115F-DDFB-4949-AC0B-F9ADE6A2E9C7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{9E2006A8-FF82-4A3A-83E8-83B3570A898C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExportOfTax.Core", "Libraries\ExportOfTax.Core\ExportOfTax.Core.csproj", "{FAB1D4F9-6F5C-4770-9128-833A57895F81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExportOfTax.Data", "Libraries\ExportOfTax.Data\ExportOfTax.Data.csproj", "{D1016557-B327-467F-83C0-701D76CB12F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExportOfTax.Services", "Libraries\ExportOfTax.Services\ExportOfTax.Services.csproj", "{E73D2189-6684-4CDF-B18D-3463DAA0ACCE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{7A987BC7-88F4-4EC2-8BBA-DDF2FDB2679D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demo", "Demo", "{22E77212-2E6D-47D3-B584-B9647FE9B655}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoApp", "Demo\DemoApp\DemoApp.csproj", "{FE461425-B31D-43FB-B92D-979DC41C28E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExportOfTax", "Presentation\ExportOfTax\ExportOfTax.csproj", "{7E7F28D4-9B48-4236-8AE6-3A40515B3EC7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{E81B01DD-8FBE-4E9E-AB81-7CC422A5E131}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExportOfTax.Modules.Invoice", "Modules\ExportOfTax.Modules.Invoice\ExportOfTax.Modules.Invoice.csproj", "{AB8B448C-DD74-4D60-A041-3E5D03A32180}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExportOfTax.Infrastructure", "Modules\ExportOfTax.Infrastructure\ExportOfTax.Infrastructure.csproj", "{788C82D9-3779-4416-BF90-2BB6BFE88A75}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{25007C44-A758-4567-81FB-7952ACF59C3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25007C44-A758-4567-81FB-7952ACF59C3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25007C44-A758-4567-81FB-7952ACF59C3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25007C44-A758-4567-81FB-7952ACF59C3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADF5E3EA-9D6C-4668-B120-3BB4A7E4DC3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADF5E3EA-9D6C-4668-B120-3BB4A7E4DC3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADF5E3EA-9D6C-4668-B120-3BB4A7E4DC3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADF5E3EA-9D6C-4668-B120-3BB4A7E4DC3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94A5115F-DDFB-4949-AC0B-F9ADE6A2E9C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94A5115F-DDFB-4949-AC0B-F9ADE6A2E9C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94A5115F-DDFB-4949-AC0B-F9ADE6A2E9C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94A5115F-DDFB-4949-AC0B-F9ADE6A2E9C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAB1D4F9-6F5C-4770-9128-833A57895F81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAB1D4F9-6F5C-4770-9128-833A57895F81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAB1D4F9-6F5C-4770-9128-833A57895F81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAB1D4F9-6F5C-4770-9128-833A57895F81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1016557-B327-467F-83C0-701D76CB12F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1016557-B327-467F-83C0-701D76CB12F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1016557-B327-467F-83C0-701D76CB12F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1016557-B327-467F-83C0-701D76CB12F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E73D2189-6684-4CDF-B18D-3463DAA0ACCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E73D2189-6684-4CDF-B18D-3463DAA0ACCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E73D2189-6684-4CDF-B18D-3463DAA0ACCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E73D2189-6684-4CDF-B18D-3463DAA0ACCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE461425-B31D-43FB-B92D-979DC41C28E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE461425-B31D-43FB-B92D-979DC41C28E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE461425-B31D-43FB-B92D-979DC41C28E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE461425-B31D-43FB-B92D-979DC41C28E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E7F28D4-9B48-4236-8AE6-3A40515B3EC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E7F28D4-9B48-4236-8AE6-3A40515B3EC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E7F28D4-9B48-4236-8AE6-3A40515B3EC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E7F28D4-9B48-4236-8AE6-3A40515B3EC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB8B448C-DD74-4D60-A041-3E5D03A32180}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB8B448C-DD74-4D60-A041-3E5D03A32180}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB8B448C-DD74-4D60-A041-3E5D03A32180}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB8B448C-DD74-4D60-A041-3E5D03A32180}.Release|Any CPU.Build.0 = Release|Any CPU
+		{788C82D9-3779-4416-BF90-2BB6BFE88A75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{788C82D9-3779-4416-BF90-2BB6BFE88A75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{788C82D9-3779-4416-BF90-2BB6BFE88A75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{788C82D9-3779-4416-BF90-2BB6BFE88A75}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FAB1D4F9-6F5C-4770-9128-833A57895F81} = {9E2006A8-FF82-4A3A-83E8-83B3570A898C}
+		{D1016557-B327-467F-83C0-701D76CB12F5} = {9E2006A8-FF82-4A3A-83E8-83B3570A898C}
+		{E73D2189-6684-4CDF-B18D-3463DAA0ACCE} = {9E2006A8-FF82-4A3A-83E8-83B3570A898C}
+		{FE461425-B31D-43FB-B92D-979DC41C28E3} = {22E77212-2E6D-47D3-B584-B9647FE9B655}
+		{7E7F28D4-9B48-4236-8AE6-3A40515B3EC7} = {7A987BC7-88F4-4EC2-8BBA-DDF2FDB2679D}
+		{AB8B448C-DD74-4D60-A041-3E5D03A32180} = {E81B01DD-8FBE-4E9E-AB81-7CC422A5E131}
+		{788C82D9-3779-4416-BF90-2BB6BFE88A75} = {E81B01DD-8FBE-4E9E-AB81-7CC422A5E131}
+	EndGlobalSection
+EndGlobal

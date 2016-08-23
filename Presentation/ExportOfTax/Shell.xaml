@@ -1,0 +1,17 @@
+﻿<Window x:Class="ExportOfTax.Shell"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:prism="http://www.codeplex.com/prism" 
+        xmlns:inf="clr-namespace:JinS.ExportOfTax.Infrastructure;assembly=ExportOfTax.Infrastructure"
+        xmlns:local="clr-namespace:ExportOfTax"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+
+    <Grid x:Name="LayoutRoot"
+          Background="{StaticResource MainBackground}">
+        <ContentControl Name="MainRegion" prism:RegionManager.RegionName="{x:Static inf:RegionNames.MainContentRegion}" Grid.Column="0" Margin="5" Padding="5" />
+    </Grid>
+
+</Window>
